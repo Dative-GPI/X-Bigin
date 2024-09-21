@@ -1,0 +1,25 @@
+/* .ux-customize-table lyte-td:not(.lv-fixed-cell-wrap,.td-has-activity-action,.td-has-checkbox) lyte-yield {
+    position: unset!important;
+    height:fit-content!important;
+}
+
+.ux-customize-table lyte-td:not(.lv-fixed-cell-wrap,.td-has-activity-action,.td-has-checkbox) lyte-yield .lv-wrap-desc {
+    display: block;
+    text-overflow: unset;
+    white-space: break-spaces;
+    height: 100px;
+    min-width: 600px;
+    overflow: auto;
+} */
+
+.lv-Tasks span.ellipsis{
+    font-family: 'lato-regular'!important;
+}
+
+.lv-Contact_Phones span.ellipsis{
+    color: darkgreen;
+}
+
+.lv-Account_Phones span.ellipsis{
+    color: darkslateblue;
+}

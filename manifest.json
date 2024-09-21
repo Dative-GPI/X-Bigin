@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "X-Bigin",
+    "description": "Extension for Bigin",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "js": ["scripts/content.js"],
+        "css": ["styles/content.css"],
+        "matches": [
+          "https://bigin.zoho.eu/*"
+        ]
+      }
+    ]
+  }
